@@ -1,0 +1,186 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul,
+nav,
+li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px 0;
+  /* background-color: #eee; */
+  border-bottom: 1px solid #ddd;
+  width: 50%;
+  margin: auto;
+  margin: 0px auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media(max-width:991px) {
+  header {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  header nav a {
+    font-size: 15px;
+  }
+}
+
+
+header .logo a {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+nav li {
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s;
+  /* border-radius: 4px; */
+
+}
+
+nav li:hover,
+nav span.create a:hover {
+  box-shadow: 0 0 7px #d4d4d4;
+}
+
+header a {
+  transition: 0.3s;
+  display: block;
+  /* padding: 10px; */
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav a.active {
+  box-shadow: 0 0 7px #c6c6c6;
+  /* background-color: #000000;
+  color: white; */
+}
+
+button.btn {
+  background-color: #eee
+}
+
+/* button.btn.delete:hover {
+  background-color: #b0040ae0;
+  color: white;
+
+} */
+
+/* button.btn.edit:hover {
+  background-color: #0495bd;
+  color: white;
+} */
+
+button.btn:hover {
+  box-shadow: 0 0 7px #c1c1c1;
+  background-color: white;
+}
+
+button.btn {
+  border: 0;
+  background-color: rgb(238, 237, 237);
+}
+
+/*  */
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  margin-right: 10px;
+  position: absolute;
+  top: 60px;
+}
+
+
+.first {
+  background-color: rgb(238, 29, 78);
+  animation: loading 1s 0.7s infinite forwards linear;
+  left: calc(50% + 30px);
+  left: 5px;
+}
+
+.second {
+  background-color: rgb(24, 85, 228);
+  left: calc(50% + 55px);
+  left: 30px;
+  animation: loading 1s 0.5s infinite linear forwards;
+
+}
+
+.third {
+  left: calc(50% + 80px);
+  left: 55px;
+  background-color: black;
+  animation: loading 1s 0.3s infinite forwards linear;
+}
+
+.fourth {
+  animation: loading 1s 0.1s infinite linear forwards;
+  left: calc(50% + 105px);
+  left: 80px;
+  background-color: rgb(8, 214, 90);
+  color: #f7f7f7;
+}
+
+.fifth {
+  animation: loading 1s infinite linear forwards;
+  left: calc(50% + 105px);
+  left: 105px;
+  background-color: rgb(196, 3, 180);
+}
+
+@keyframes loading {
+
+  0%,
+  20% {
+    top: 60px;
+  }
+
+  40%,
+  60% {
+    top: 45px;
+    background-color: rgb(218, 217, 217);
+  }
+
+  80%,
+  100% {
+    top: 60px;
+    background-color: black;
+  }
+}

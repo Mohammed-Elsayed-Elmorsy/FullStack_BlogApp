@@ -1,0 +1,34 @@
+.logout {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.logout.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.logout>div {
+    margin-bottom: 100px;
+}
+
+.logout div span {
+    background-color: #eaeaea;
+    transition: 0.3s;
+}
+
+.logout div span:hover {
+    box-shadow: 0 0 5px #858585;
+}
+
+/* .logout div span:nth-child(1):hover {
+    background-color: rgb(233, 133, 4);
+    color: white;
+}
+
+.logout div span:nth-child(2):hover {
+    background-color: rgb(11, 116, 207);
+    color: white;
+
+} */

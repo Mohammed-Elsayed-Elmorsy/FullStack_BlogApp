@@ -1,0 +1,17 @@
+.home-land-page {
+    height: 400px;
+    background: url('../../images/pexels-photo.jpg') no-repeat center /cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-land-page .over {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.455);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}

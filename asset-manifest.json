@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github.io/FullStack_BlogApp/static/css/main.93c81bbd.css",
+    "main.js": "/github.io/FullStack_BlogApp/static/js/main.0cbab31f.js",
+    "static/media/pexels-photo.jpg": "/github.io/FullStack_BlogApp/static/media/pexels-photo.070815e3ab7a29b58b94.jpg",
+    "index.html": "/github.io/FullStack_BlogApp/index.html",
+    "main.93c81bbd.css.map": "/github.io/FullStack_BlogApp/static/css/main.93c81bbd.css.map",
+    "main.0cbab31f.js.map": "/github.io/FullStack_BlogApp/static/js/main.0cbab31f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93c81bbd.css",
+    "static/js/main.0cbab31f.js"
+  ]
+}
